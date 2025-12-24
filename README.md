@@ -1,6 +1,6 @@
-#Hackathon-Project
 
-### Accessing Stored Data
+
+# Hackathon-Project
 
 View research data in Firebase Console:
 1. Go to [Firebase Console](https://console.firebase.google.com)
