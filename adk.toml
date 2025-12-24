@@ -1,0 +1,13 @@
+[project]
+name = "Hackathon-project"
+version = "0.1.0"
+
+[agents]
+# ADK will auto-discover agents under the agents/ folder
+package = "agents"
+
+[llm]
+# You’re using Gemini API (AI Studio, not Vertex)
+provider = "google"
+model = "gemini-2.5-flash"
+use_vertex_ai = false
