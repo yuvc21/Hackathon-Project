@@ -101,7 +101,7 @@ Instead of saying "Payment due in 1 days" (confusing!), it tells you:
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
 │  ┌──────────────┐        ┌─────────────────┐            │
-│  │ invoices.json│───────▶│ Invoice Monitor │            │
+│  │ invoices.json│───────▶  Invoice Monitor│            │
 │  │ (Your data)  │        │ (Reads invoices)│            │
 │  └──────────────┘        └────────┬────────┘            │
 │                                   │                     │
@@ -114,7 +114,7 @@ Instead of saying "Payment due in 1 days" (confusing!), it tells you:
 │                                   │                     │
 │                                   ▼                     │
 │  ┌──────────────┐        ┌─────────────────┐            │ 
-│  │   Agent      │───────▶│  Dispatcher     │            │
+│  │   Agent      │───────▶  Dispatcher     │            │
 │  │ (AI Brain)   │        │ (Sends alerts)  │            │
 │  └──────────────┘        └────────┬────────┘            │
 │                                   │                     │
