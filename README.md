@@ -682,6 +682,19 @@ Action: Saves to notification_state.json
 - pip (Python package manager)
 - Google AI API key (free from ai.google.dev)
 - Initially, you would have to either download the repository or clone it into your system.
+- git clone https://github.com/yuvc21/Hackathon-Project.git (common for all os)
+- cd Hackathon-Project (changing the directory)
+- structure after installation
+Hackathon-Project/
+├── agents/          # ADK agents live here
+├── lib/             # helper / shared logic
+├── scripts/         # utility scripts
+├── adk.toml         # ADK project config (IMPORTANT)
+├── main.py          # entry point
+├── test_firebase.py
+├── README.md
+└── .gitignore
+
 ```
 
 ### Installation Steps
@@ -689,7 +702,12 @@ Action: Saves to notification_state.json
 **Step 0: Suggested to create a virtual environment with the following commands**
 ```bash
 python3 -m venv venv
+python3 -m venv venv (if python3 doesn't work, a previous version might be there)
+linux/macos
 source venv/bin/activate
+windows
+.\venv\Scripts\Activate.ps1 (powershell)
+venv\Scripts\activate.bat (cmd)
 ```
 
 **Step 1: Install Python packages**
@@ -702,6 +720,11 @@ pip install schedule plyer google-adk
 # Create .env file:
 cd notification_agent
 echo "GOOGLE_AI_API_KEY=your_key_here" > .env
+THIS IS A CRUCIAL STEP, you can get free API number
+i can't randomly put a yt video link please search
+on how to get that on youtube
+https://ai.google.dev/gemini-api/docs/api-key
+or follow the steps on this website and you can get your own api
 ```
 
 **Step 3: Prepare invoice data**
@@ -719,6 +742,7 @@ echo "GOOGLE_AI_API_KEY=your_key_here" > .env
 ```
 
 **Step 4: Choose your agent**
+ Currently, you can give prompts to the notification_agent
 
 **For interactive chat:**
 ```bash
