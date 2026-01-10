@@ -681,9 +681,16 @@ Action: Saves to notification_state.json
 - Python 3.8+
 - pip (Python package manager)
 - Google AI API key (free from ai.google.dev)
+- Initially, you would have to either download the repository or clone it into your system.
 ```
 
 ### Installation Steps
+
+**Step 0: Suggested to create a virtual environment with the following commands**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
 **Step 1: Install Python packages**
 ```bash
@@ -969,14 +976,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/yourusername/msme-compliance-agent](https://github.com/yourusername/msme-compliance-agent)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
